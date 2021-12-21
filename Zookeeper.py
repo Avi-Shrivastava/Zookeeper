@@ -1,33 +1,10 @@
-# Part 1
+
 print(''' I love animals!
 Let's check on the animals...
 The deer looks fine.
 The bat looks happy.
 The lion looks healthy.''')
 
-# Part 2
-print(r"""
-Switching on the camera in the camel habitat...
- ___.-''''-.
-/___  @    |
-',,,,.     |         _.'''''''._
-     '     |        /           \
-     |     \    _.-'             \
-     |      '.-'                  '-.
-     |                               ',
-     |                                '',
-      ',,-,                           ':;
-           ',,| ;,,                 ,' ;;
-              ! ; !'',,,',',,,,'!  ;   ;:
-             : ;  ! !       ! ! ;  ;   :;
-             ; ;   ! !      ! !  ; ;   ;,
-            ; ;    ! !     ! !   ; ;
-            ; ;    ! !    ! !     ; ;
-           ;,,      !,!   !,!     ;,;
-           /_I      L_I   L_I     /_I
-Look at that! Our little camel is sunbathing!
-""")
-# Part 3
 camel = r"""
 Switching on the camera in the camel habitat...
  ___.-''''-.
@@ -149,8 +126,6 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!"""
 
-
-# write your code here
 animal_list = [camel,lion,deer,goose,bat,rabbit]
 user_input = int(input())
 print(animal_list[user_input])
